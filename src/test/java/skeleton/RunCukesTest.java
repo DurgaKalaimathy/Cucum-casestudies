@@ -6,7 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"src/test/resources/skeleton/examples.feature"},
+		features= {"src/test/resources/skeleton/examples.feature"},{"src/test/resources/skeleton/Login.feature"},
+	{"src/test/resources/skeleton/verify.feature"},{"src/test/resources/skeleton/typematch.feature"},
 		glue="skeleton",
 		plugin="html:target/html-report"
 )
