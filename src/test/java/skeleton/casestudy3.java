@@ -22,9 +22,9 @@ public class casestudy3 {
 		WebElement var1=driver.findElement(By.linkText("SignIn"));
 		var1.click();
 		WebElement var2=driver.findElement(By.id("userName"));
-		var2.sendKeys("AlexUser"); 
+		var2.sendKeys("lalitha"); 
 		WebElement var3=driver.findElement(By.id("password"));
-		var3.sendKeys("Alex@123");
+		var3.sendKeys("password123");
 		WebElement login=driver.findElement(By.name("Login"));
 		login.click();
 		WebElement var4=driver.findElement(By.id("myInput"));
