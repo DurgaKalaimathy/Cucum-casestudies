@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 		features= {"src/test/resources/skeleton/examples.feature","src/test/resources/skeleton/Login.feature",
 	"src/test/resources/skeleton/verify.feature","src/test/resources/skeleton/typematch.feature"},
 		glue="skeleton",
-		plugin="html:target/html-report"
+		plugin="json:target/cucumber.jason"
 )
 public class RunCukesTest {
 	
